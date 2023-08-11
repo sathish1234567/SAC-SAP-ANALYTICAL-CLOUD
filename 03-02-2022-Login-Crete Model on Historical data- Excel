@@ -1,5 +1,7 @@
 Login
 create model
+level hierarchy
+config scehdule refresh the data
 
 How to access the SAC?
 -- need to open the browser - https://sactrial-saceu20-seundtd525afdfoj0uoyrrt3.eu20.hcs.cloud.sap 
@@ -61,7 +63,8 @@ create the model"
         check the enable auto refresh --> provide the time
         click on ok...
 
-            
+7. right click on widgets --> select the linked hierarchy --> apply the entire story..
+    now automaticla link to the all widgets....
 
 
   
