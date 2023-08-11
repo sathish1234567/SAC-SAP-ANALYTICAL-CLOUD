@@ -1,0 +1,66 @@
+Login
+create model
+
+How to access the SAC?
+-- need to open the browser - https://sactrial-saceu20-seundtd525afdfoj0uoyrrt3.eu20.hcs.cloud.sap 
+-- Login with that - *******kumar.****@gmail.com/nani@NNNNA
+
+create model:- FirstModel Sampledata.csv 
+--  1. uplod csv file, and what is the total sales generated on mens/womens clothing cotton?
+--  sol: 
+    1. collect data using modeler component
+    2. once accces the data through the modeler compoenent, you can model it there.
+    3. create the story board.
+
+create the model"
+  1. go to SAC
+  2. select the folder/files --> my files --> click on + button -->select the model-component.
+  Note : in model component --> you have the lot of options to connect the various data sources and 
+         import data into various data SAC plotforms.
+
+  3. click on model. -->once you go to the model, we have the 4 models.
+      1. + model --> to create the model from the blank.
+      2. import from csv/excel file.
+      3. access from live data model.
+      4. from a data source( from other it systems).
+
+  4. upload the csv file --> model --> select the from a csv file.- click
+      select the source file --> select the path.--> click on import button.
+      what happen? SAP copying all the local file data to the SAC plotform as a draft copy.
+      draft copy means: it is creating one more file(dulicate) , without disturbing the original excel file.
+
+      for drill down report: click on level based hirearchy button  
+       hierarchy wil provide lower to top. -- give the name - H1
+      material --> prodcut item -->product line -->product class
+      lower      -------------------------------------- top
+      click on ok -- ok...
+       now created the hierarchy..
+
+      click on create button for model
+      provide the model name -- click on ok ...
+      now model will create....
+
+5. create story : once model created --> go to the files --> click on +  and click on story 
+    now you can select the different pages such as resonsive/canvs/grid/from a smart discovery
+    responsive -- for mobile compatibilty.
+    now choosen the CANVAS --> for white background
+    now select the required charts --> select the req. model and then provide the corodinates 
+    then provide the properties:
+    chart orienttion : horizontal
+    removed decimals in styles:
+    measure section : sales    -- chart display : sum of all sales : 2020.00 --> to remove the decimals --> 
+                                  go to styling -- number format -- decimal places : 0.
+
+    for drill down add it to the dimensions:  select the product_class
+    
+
+      
+
+
+
+
+  
+
+
+
+
